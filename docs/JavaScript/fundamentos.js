@@ -6,6 +6,10 @@ con
 varias 
 lineas
 */
+/*Input shit*/
+/* let entrada = prompt()
+entrada = prompt("Escriba su nombre")
+console.log(entrada) */
 /*Output shit
 alert("buenas noches")
 console.log("mensaje a la consolita buenos dias")
@@ -46,7 +50,7 @@ console.log(numero2) */
 
 /* Tipos de dato primitivos */
 // string
-let miVariable = "";
+ let miVariable = "";
  miVariable = "este es un texto de 'ejemplo 1'";
  miVariable = 'este es un texto de "ejemplo 2"';
  miVariable = `este es un 'texto' de "ejemplo" 3`;
@@ -58,7 +62,63 @@ let miVariable = "";
 // boolean
  miVariable = true;
  miVariable = false;
- console.log(miVariable);
  // undefined
- let miVariableSinAsignacion;
-console.log(miVariableSinAsignacion);
+/* let miVariableSinAsignacion;
+console.log(miVariableSinAsignacion); 
+ console.log(miVariable);*/
+ 
+ /* Expresiones booleanas */
+// Truthy o verdaderos
+/* console.log(true)
+console.log(1)
+console.log(-1)
+console.log("a") */
+// Falsy o falsos
+/* console.log(false)
+console.log(0)
+console.log("")
+console.log(undefined)
+console.log(null) */
+
+/* Control de flujo */
+// Condicionales
+/* if (true) {
+  console.log("se cumple la condición 1")
+}
+
+if (false) {
+  console.log("se cumple la condición 2")
+} else {
+console.log("no se cumple la condición 2")
+}
+
+if (false) {
+  console.log("se cumple la condición 3 a")
+} else if (true) {
+  console.log("se cumple la condición 3 b")
+} else {
+console.log("no se cumple la condición 3")
+}
+
+if (false) {
+  console.log("se cumple la condición 4")
+}
+if (true) {
+  console.log("se cumple la condición 5")
+} */
+
+
+ const perfil = "profesor"
+
+ switch (perfil) {
+    case "estudiante":
+    console.log("eres un estudiante")
+    break;
+    case "profesor":
+    console.log("eres un profesor")
+    break;
+    default:
+        console.log("perfil no permitido")
+
+ }
+ 
