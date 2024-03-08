@@ -44,3 +44,21 @@ console.log(numero2) */
 /*modo estricto(esto es para usar siempre una variable como let o const*/
 //"use strict"
 
+/* Tipos de dato primitivos */
+// string
+let miVariable = "";
+ miVariable = "este es un texto de 'ejemplo 1'";
+ miVariable = 'este es un texto de "ejemplo 2"';
+ miVariable = `este es un 'texto' de "ejemplo" 3`;
+ // number
+ miVariable = 10;
+ miVariable = 9.5;
+ miVariable = 0xFF;
+  miVariable = 123e5;
+// boolean
+ miVariable = true;
+ miVariable = false;
+ console.log(miVariable);
+ // undefined
+ let miVariableSinAsignacion;
+console.log(miVariableSinAsignacion);
