@@ -49,24 +49,78 @@ console.log(numero2) */
 //"use strict"
 
 /* Tipos de dato primitivos */
+
 // string
+
  let miVariable = "";
  miVariable = "este es un texto de 'ejemplo 1'";
  miVariable = 'este es un texto de "ejemplo 2"';
  miVariable = `este es un 'texto' de "ejemplo" 3`;
+
  // number
  miVariable = 10;
  miVariable = 9.5;
  miVariable = 0xFF;
   miVariable = 123e5;
+
 // boolean
  miVariable = true;
  miVariable = false;
+
  // undefined
 /* let miVariableSinAsignacion;
 console.log(miVariableSinAsignacion); 
  console.log(miVariable);*/
+
  
+ /* Operador typeof*/
+/*
+console.log(typeof miVariable);
+
+usado para ver que tipo de dato es
+*/
+
+/* Conversion de tipos*/// parseint/Number o parseFloat para decimales
+// string, .tostring para convertir a string
+/* let numero1 = "1";
+let numero2 = "2";
+let numero3 = "3";
+let resultado = numero1 + numero2 + numero3;
+console.log(resultado);
+numero1 = Number(numero1);
+numero2 = parseInt(numero2);
+numero3 = +numero3
+resultado = numero1 + numero2 + numero3;
+console.log(resultado);
+
+//DECIMALES
+let numeroDecimal1 = "1.5"
+let numeroDecimal2 = "2.5"
+let numeroDecimal3 = "3.5"
+resultado = numeroDecimal1 + numeroDecimal2 + numeroDecimal3;
+console.log(resultado);
+numeroDecimal1 = parseFloat(numeroDecimal1);
+numeroDecimal2 = parseFloat(numeroDecimal2);
+numeroDecimal3 = Number(numeroDecimal3);
+resultado = numeroDecimal1 + numeroDecimal2 + numeroDecimal3;
+console.log(resultado);
+
+//TRANSFORMAR A STRING
+
+let telefono = 555;
+let codigoPais = 57;
+console.log(telefono);
+console.log(codigoPais)
+telefono = String(telefono)
+codigoPais = codigoPais.toString()
+console.log(telefono)
+console.log(typeof telefono)
+console.log(codigoPais)
+console.log(typeof codigoPais)
+console.log("numero completo:", codigoPais + telefono)
+ */
+
+
  /* Expresiones booleanas */
 // Truthy o verdaderos
 /* console.log(true)
@@ -108,7 +162,7 @@ if (true) {
 } */
 
 
- const perfil = "profesor"
+ /* const perfil = "profesor"
 
  switch (perfil) {
     case "estudiante":
@@ -119,6 +173,65 @@ if (true) {
     break;
     default:
         console.log("perfil no permitido")
-
- }
+ }*/
  
+ /* Operadores */ 
+ //-Concatenacion
+ /* console.log("pepita" + " " + "perez"); */
+
+ //-Aritmeticos 
+/* console.log(8 + 4);
+console.log(8 - 4);
+console.log(8 * 4);
+console.log(8 / 4);
+console.log(8 % 4);
+console.log(10 % 3);
+console.log(2 ** 3); */
+
+//
+/* miVariable = 3;
+console.log(miVariable);
+
+/* Incremento */
+/* miVariable++;
+console.log(miVariable); */
+
+/* Decremento */
+/* miVariable--;
+console.log(miVariable);  */
+
+
+
+//-Asignacion
+
+/* let numero1 = 8;
+let numero2 = 4;
+let resultado = numero1 + numero2
+resultado += 3;
+// es lo mismo a: //
+resultado = resultado + 3;
+resultado *= 2;
+resultado /= 3;
+resultado %= 2
+resultado -= 2;
+resultado **= 2;
+console.log(resultado); */
+
+// Comparacion
+
+
+
+//Logicos
+/* 
+console.log(true && true);
+console.log(true && false);
+console.log(false && false);
+
+console.log(true || true);
+console.log(true || false);
+console.log(false || false);
+//de negacion
+console.log(!true);
+console.log(!false); */
+
+
