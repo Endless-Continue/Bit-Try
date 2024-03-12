@@ -217,8 +217,23 @@ resultado -= 2;
 resultado **= 2;
 console.log(resultado); */
 
-// Comparacion
+//-Comparacion
 
+/* console.log(8 == 4);
+console.log(8 === 4);
+console.log(8 == 8);
+console.log(8 === 8);
+console.log(8 == '8');
+console.log(8 === '8');
+console.log('8' === '8');
+console.log('pepita' === 'Pepita');
+console.log(8 != 4);
+console.log(8 != '8');
+console.log(8 !== '8');
+console.log(8 > 4);
+console.log(8 < 4);
+console.log(8 >= 4);
+console.log(8 <= 4); */
 
 
 //Logicos
