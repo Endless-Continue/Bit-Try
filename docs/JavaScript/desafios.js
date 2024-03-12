@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 //hacer que salude
 //console.log("hola")
 //document.write("hola2")
@@ -31,8 +31,7 @@ else {
 
 /* prubitas exoticas adjasdasjdasjd */
 
-
- /* const entrada = prompt("Ingresa tu nombre:");
+/* const entrada = prompt("Ingresa tu nombre:");
 
 if (entrada) {
   if (entrada.toLowerCase() === "javi") {
@@ -54,7 +53,7 @@ entrada2 = Number(entrada2)
 
 let resultado = entrada1 + entrada2
 
-document.write("La suma de los numeros es: " + resultado) */ 
+document.write("La suma de los numeros es: " + resultado) */
 
 //Hacer un programa que pida y muestre nombres y apellidos
 
@@ -85,16 +84,21 @@ if (num1 == 0) {
  } 
  */
 
- //Hacer un programa que reciba  del usuario 2 numeros y muestre cual es el numero mayor y cual es el numero menor
+//Hacer un programa que reciba  del usuario 2 numeros y muestre cual es el numero mayor y cual es el numero menor
 
- let num2 = prompt("Ingrese un numero");
- let num3 = prompt("Ingrese otro numero");
+let num2 = parseFloat(prompt("Ingrese un numero"));
+let num3 = parseFloat(prompt("Ingrese otro numero"));
 
- if (num2 < num3) {
+if (num2 < num3) {
   document.write(`el numero ${num3} es mayor y el numero ${num2} es el menor`);
- } else if (num2 > num3) {
+} else if (num2 > num3) {
   document.write(`el numero ${num2} es mayor y el numero ${num3} es el menor`);
- } else {
+} else {
   document.write("Los numeros son iguales");
- }
- 
+}
+
+// if NaN
+/* 
+if (isNaN(numero)) {
+  document.write('El valor ingresado no es un número');
+  */

@@ -26,7 +26,7 @@ console.log(saludo1)
 console.log(saludo2)
 console.log(saludo30)
 console.log(saludo3)
-console.log(saludo4) */ 
+console.log(saludo4) */
 /* ambito de las variables(diferencias de let y var(nunca usar var)) */
 /*
 let variableGlobal = "variable global"
@@ -52,35 +52,34 @@ console.log(numero2) */
 
 // string
 
- let miVariable = "";
- miVariable = "este es un texto de 'ejemplo 1'";
- miVariable = 'este es un texto de "ejemplo 2"';
- miVariable = `este es un 'texto' de "ejemplo" 3`;
+let miVariable = "";
+miVariable = "este es un texto de 'ejemplo 1'";
+miVariable = 'este es un texto de "ejemplo 2"';
+miVariable = `este es un 'texto' de "ejemplo" 3`;
 
- // number
- miVariable = 10;
- miVariable = 9.5;
- miVariable = 0xFF;
-  miVariable = 123e5;
+// number
+miVariable = 10;
+miVariable = 9.5;
+miVariable = 0xff;
+miVariable = 123e5;
 
 // boolean
- miVariable = true;
- miVariable = false;
+miVariable = true;
+miVariable = false;
 
- // undefined
+// undefined
 /* let miVariableSinAsignacion;
 console.log(miVariableSinAsignacion); 
  console.log(miVariable);*/
 
- 
- /* Operador typeof*/
+/* Operador typeof*/
 /*
 console.log(typeof miVariable);
 
 usado para ver que tipo de dato es
 */
 
-/* Conversion de tipos*/// parseint/Number o parseFloat para decimales
+/* Conversion de tipos*/ // parseint/Number o parseFloat para decimales
 // string, .tostring para convertir a string
 /* let numero1 = "1";
 let numero2 = "2";
@@ -120,8 +119,7 @@ console.log(typeof codigoPais)
 console.log("numero completo:", codigoPais + telefono)
  */
 
-
- /* Expresiones booleanas */
+/* Expresiones booleanas */
 // Truthy o verdaderos
 /* console.log(true)
 console.log(1)
@@ -161,8 +159,7 @@ if (true) {
   console.log("se cumple la condición 5")
 } */
 
-
- /* const perfil = "profesor"
+/* const perfil = "profesor"
 
  switch (perfil) {
     case "estudiante":
@@ -174,12 +171,12 @@ if (true) {
     default:
         console.log("perfil no permitido")
  }*/
- 
- /* Operadores */ 
- //-Concatenacion
- /* console.log("pepita" + " " + "perez"); */
 
- //-Aritmeticos 
+/* Operadores */
+//-Concatenacion
+/* console.log("pepita" + " " + "perez"); */
+
+//-Aritmeticos
 /* console.log(8 + 4);
 console.log(8 - 4);
 console.log(8 * 4);
@@ -199,8 +196,6 @@ console.log(miVariable); */
 /* Decremento */
 /* miVariable--;
 console.log(miVariable);  */
-
-
 
 //-Asignacion
 
@@ -235,7 +230,6 @@ console.log(8 < 4);
 console.log(8 >= 4);
 console.log(8 <= 4); */
 
-
 //Logicos
 /* 
 console.log(true && true);
@@ -248,5 +242,3 @@ console.log(false || false);
 //de negacion
 console.log(!true);
 console.log(!false); */
-
-
