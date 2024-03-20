@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Layout</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        width: 1024px;
+        height: 512px;
+        background-color: lightgray;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      header,
+      nav,
+      main,
+      aside,
+      footer {
+        display: flex;
+        color: white;
+        background-color: gray;
+        border: 2px solid white;
+        justify-content: center;
+        align-items: center;
+      }
+      header {
+        height: 88px;
+      }
+      nav {
+        height: 48px;
+      }
+      main,
+      aside {
+        height: 340px;
+      }
+      footer {
+        height: 34px;
+      }
+      main {
+        width: 800px;
+      }
+      aside {
+        width: 220px;
+      }
+
+      header,
+      nav,
+      footer {
+        width: 1024px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>HEADER</header>
+    <nav>NAV</nav>
+    <main>
+      Main
+      <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+        magnam est, neque blanditiis placeat ab autem minima architecto, quae
+        odio excepturi aspernatur nesciunt dicta. Possimus eius similique at ex
+        recusandae.
+      </div>
+      <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+        sapiente commodi blanditiis sit corrupti non maiores corporis quis nulla
+        dolorem labore doloremque molestias deleniti numquam, ut iste illo
+        temporibus optio?
+      </div>
+      <ul>
+        <li>a</li>
+        <li>a</li>
+        <li>a</li>
+      </ul>
+    </main>
+    <aside>ASIDE</aside>
+    <footer>FOOTER</footer>
+  </body>
+</html>
