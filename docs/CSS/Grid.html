@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .contenedor {
+        width: 400px;
+        height: 400px;
+        gap: 20px;
+        background-color: green;
+      }
+      .bloque {
+        width: 400px;
+        height: 400px;
+        background-color: green;
+        display: grid;
+      }
+      .en-linea {
+        width: 400px;
+        height: 400px;
+        background-color: green;
+        display: inline-grid;
+      }
+      .elemento {
+        background-color: yellow;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bloque">
+      <div class="elemento">1</div>
+      <div class="elemento">2</div>
+      <div class="elemento">3</div>
+    </div>
+    <!--  <div class="elemento">4</div>
+
+    <div class="elemento">5</div>
+    <div class="elemento">6</div>
+    <div class="elemento">7</div>
+    <div class="elemento">8</div>
+    <div class="elemento">9</div> -->
+  </body>
+</html>
